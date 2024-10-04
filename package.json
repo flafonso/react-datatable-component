@@ -1,5 +1,5 @@
 {
-  "name": "react-datatable-component",
+  "name": "@flafonso/react-datatable-component",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
