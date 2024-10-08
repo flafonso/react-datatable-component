@@ -3,6 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const jsx_runtime_1 = require("react/jsx-runtime");
 /* eslint-disable @typescript-eslint/no-explicit-any */
 const react_1 = require("react");
+require("./dataTable.css");
 function DataTable({ id, className, data, columns }) {
     const [columnSort, setColumnSort] = (0, react_1.useState)({ id: columns[0].data, direction: "asc" });
     const [search, setSearch] = (0, react_1.useState)("");

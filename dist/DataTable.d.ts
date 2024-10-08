@@ -1,3 +1,4 @@
+import "./dataTable.css";
 interface Column {
     title: string;
     data: string;
